@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: mas_assignment1.aux
+The style file: plain.bst
+Database file #1: /mnt/c/Users/athen/Desktop/MAI_Sem2/A-MAS-RL/Assignment1/MAS_Assignment1.bib
+Warning--to sort, need author or key in AutonomousCyberDefence
+You've used 21 entries,
+            2118 wiz_defined-function locations,
+            646 strings with 10136 characters,
+and the built_in function-call counts, 9283 in all, are:
+= -- 920
+> -- 504
+< -- 7
++ -- 202
+- -- 178
+* -- 745
+:= -- 1483
+add.period$ -- 66
+call.type$ -- 21
+change.case$ -- 152
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 311
+empty$ -- 655
+format.name$ -- 178
+if$ -- 1932
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 20
+newline$ -- 107
+num.names$ -- 40
+pop$ -- 150
+preamble$ -- 1
+purify$ -- 131
+quote$ -- 0
+skip$ -- 239
+stack$ -- 0
+substring$ -- 675
+swap$ -- 90
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 84
+warning$ -- 1
+while$ -- 83
+width$ -- 23
+write$ -- 235
+(There was 1 warning)

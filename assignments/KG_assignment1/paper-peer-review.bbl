@@ -1,0 +1,64 @@
+\begin{thebibliography}{10}
+
+\bibitem{RDF11Turtle}
+{{RDF}} 1.1 {{Turtle}}.
+\newblock https://www.w3.org/TR/turtle/.
+
+\bibitem{ResourceDescriptionFramework}
+Resource {{Description Framework}} ({{RDF}}) {{Model}} and {{Syntax Specification}}.
+\newblock https://www.w3.org/TR/1999/REC-rdf-syntax-19990222/.
+
+\bibitem{SPARQL11Query}
+{{SPARQL}} 1.1 {{Query Language}}.
+\newblock https://www.w3.org/TR/2013/REC-sparql11-query-20130321/.
+
+\bibitem{WebOntologyLanguage}
+Web ontology language: {{OWL}}.
+\newblock https://www.researchgate.net/publication/2844629\_Web\_ontology\_language\_OWL.
+
+\bibitem{WordNetLexicalDatabase}
+{{WordNet}}: A lexical database for {{English}}: {{Communications}} of the {{ACM}}: {{Vol}} 38, {{No}} 11.
+\newblock https://dl.acm.org/doi/10.1145/219717.219748.
+
+\bibitem{abu-salihDomainspecificKnowledgeGraphs2021}
+Bilal {Abu-Salih}.
+\newblock Domain-specific {{Knowledge Graphs}}: {{A}} survey, March 2021.
+
+\bibitem{adamikAdvancingRoboticPerception2024}
+Mark Adamik, Romana Pernisch, Ilaria Tiddi, and Stefan Schlobach.
+\newblock Advancing {{Robotic Perception}} with~{{Perceived-Entity Linking}}.
+\newblock In {\em The {{Semantic Web}} -- {{ISWC}} 2024: 23rd {{International Semantic Web Conference}}, {{Baltimore}}, {{MD}}, {{USA}}, {{November}} 11--15, 2024, {{Proceedings}}, {{Part II}}}, pages 192--209, Berlin, Heidelberg, November 2024. Springer-Verlag.
+
+\bibitem{beetzKnowRob202018}
+Michael Beetz, Daniel Be{\ss}ler, Andrei Haidu, Mihai Pomarlan, Asil~Kaan Bozcuo{\u g}lu, and Georg Bartels.
+\newblock Know {{Rob}} 2.0 --- {{A}} 2nd {{Generation Knowledge Processing Framework}} for {{Cognition-Enabled Robotic Agents}}.
+\newblock In {\em 2018 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})}, pages 512--519, May 2018.
+
+\bibitem{chenConstructingDynamicKnowledge2022}
+Yaxi Chen and Xuefeng Xing.
+\newblock Constructing {{Dynamic Knowledge Graph Based}} on {{Ontology Modeling}} and {{Neo4j Graph Database}}.
+\newblock In {\em 2022 5th {{International Conference}} on {{Artificial Intelligence}} and {{Big Data}} ({{ICAIBD}})}, pages 522--525, May 2022.
+
+\bibitem{dosovitskiyImageWorth16x162021}
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby.
+\newblock An {{Image}} is {{Worth}} 16x16 {{Words}}: {{Transformers}} for {{Image Recognition}} at {{Scale}}, June 2021.
+
+\bibitem{liSDSLAMSemanticSLAM2024}
+Feiya Li, Chunyun Fu, Dongye Sun, Jian Li, and Jianwen Wang.
+\newblock {{SD-SLAM}}: {{A Semantic SLAM Approach}} for {{Dynamic Scenes Based}} on {{LiDAR Point Clouds}}, February 2024.
+
+\bibitem{panContextawareEntityTyping2021}
+Weiran Pan, Wei Wei, and Xian-Ling Mao.
+\newblock Context-aware {{Entity Typing}} in {{Knowledge Graphs}}.
+\newblock In Marie-Francine Moens, Xuanjing Huang, Lucia Specia, and Scott Wen-tau Yih, editors, {\em Findings of the {{Association}} for {{Computational Linguistics}}: {{EMNLP}} 2021}, pages 2240--2250, Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics.
+
+\bibitem{redmonYouOnlyLook2016}
+Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+\newblock You {{Only Look Once}}: {{Unified}}, {{Real-Time Object Detection}}, May 2016.
+
+\bibitem{stantonGroundingRobotSensory2004}
+Christopher Stanton and Mary-Anne Williams.
+\newblock Grounding {{Robot Sensory}} and {{Symbolic Information Using}} the {{Semantic Web}}.
+\newblock In Daniel Polani, Brett Browning, Andrea Bonarini, and Kazuo Yoshida, editors, {\em {{RoboCup}} 2003: {{Robot Soccer World Cup VII}}}, pages 757--764, Berlin, Heidelberg, 2004. Springer.
+
+\end{thebibliography}

@@ -1,0 +1,107 @@
+\begin{thebibliography}{10}
+
+\bibitem{AutonomousCyberDefence}
+Autonomous {{Cyber Defence Phase II}}.
+\newblock https://cetas.turing.ac.uk/publications/autonomous-cyber-defence-autonomous-agents.
+
+\bibitem{acharyaAgenticAIAutonomous2025}
+Deepak~Bhaskar Acharya, Karthigeyan Kuppan, and B.~Divya.
+\newblock Agentic {{AI}}: {{Autonomous Intelligence}} for {{Complex Goals}}---{{A Comprehensive Survey}}.
+\newblock {\em IEEE Access}, 13:18912--18936, 2025.
+
+\bibitem{carrascoCYBERSHIELDCompetitiveSimulation2024}
+Jos{\'e} {\'A}lvaro~Fern{\'a}ndez Carrasco, I{\~n}igo~Amonarriz Pagola, Ra{\'u}l~Orduna Urrutia, and Rodrigo Rom{\'a}n.
+\newblock {{CYBERSHIELD}}: {{A Competitive Simulation Environment}} for {{Training AI}} in {{Cybersecurity}}.
+\newblock In {\em 2024 11th {{International Conference}} on {{Internet}} of {{Things}}: {{Systems}}, {{Management}} and {{Security}} ({{IOTSMS}})}, pages 11--18, September 2024.
+
+\bibitem{dongSurveyLLMbasedAgents2024}
+Xiaofei Dong, Xueqiang Zhang, Weixin Bu, Dan Zhang, and Feng Cao.
+\newblock A {{Survey}} of {{LLM-based Agents}}: {{Theories}}, {{Technologies}}, {{Applications}} and {{Suggestions}}.
+\newblock In {\em 2024 3rd {{International Conference}} on {{Artificial Intelligence}}, {{Internet}} of {{Things}} and {{Cloud Computing Technology}} ({{AIoTC}})}, pages 407--413, September 2024.
+
+\bibitem{dorriMultiAgentSystemsSurvey2018}
+Ali Dorri, Salil~S. Kanhere, and Raja Jurdak.
+\newblock Multi-{{Agent Systems}}: {{A Survey}}.
+\newblock {\em IEEE Access}, 6:28573--28593, 2018.
+
+\bibitem{flamminiPreventingDeadlocksMultiAgent2024}
+Benedetta Flammini.
+\newblock Preventing {{Deadlocks}} for {{Multi-Agent Pickup}} and {{Delivery}} in {{Dynamic Environments}}.
+\newblock {\em New Zealand}, 2024.
+
+\bibitem{geneserethSoftwareAgents1994}
+Michael~R. Genesereth and Steven~P. Ketchpel.
+\newblock Software agents.
+\newblock {\em Commun. ACM}, 37(7):48--ff., July 1994.
+
+\bibitem{heLLMBasedMultiAgentSystems2025}
+Junda He, Christoph Treude, and David Lo.
+\newblock {{LLM-Based Multi-Agent Systems}} for {{Software Engineering}}: {{Literature Review}}, {{Vision}} and the {{Road Ahead}}.
+\newblock {\em ACM Trans. Softw. Eng. Methodol.}, January 2025.
+
+\bibitem{kusneScalableMultiagentLab2023}
+A.~Gilad Kusne and Austin McDannald.
+\newblock Scalable multi-agent lab framework for lab optimization.
+\newblock {\em Matter}, 6(6):1880--1893, June 2023.
+
+\bibitem{loevenichTrainingAutonomousCyber2024}
+Johannes~F. Loevenich, Erik Adler, Adrien B{\'e}cue, Alexander Velazquez, Konrad Wrona, Vasil Boshnakov, Jerry Falkcrona, Nils Nordbotten, Olwen~L. Worthington, Juha R{\"o}ning, Roberto Rigolin, and F.~Lopes.
+\newblock Training {{Autonomous Cyber Defense Agents}}: {{Challenges}} \& {{Opportunities}} in {{Military Networks}}.
+\newblock In {\em {{MILCOM}} 2024 - 2024 {{IEEE Military Communications Conference}} ({{MILCOM}})}, pages 158--163, October 2024.
+
+\bibitem{luckConceptualFrameworkAgent2001}
+Michael Luck and Mark {d'Inverno}.
+\newblock A {{Conceptual Framework}} for {{Agent Definition}} and {{Development}}.
+\newblock {\em The Computer Journal}, 44(1):1--20, January 2001.
+
+\bibitem{ningCheatAgentAttackingLLMEmpowered2024}
+Liang-bo Ning, Shijie Wang, Wenqi Fan, Qing Li, Xin Xu, Hao Chen, and Feiran Huang.
+\newblock {{CheatAgent}}: {{Attacking LLM-Empowered Recommender Systems}} via {{LLM Agent}}.
+\newblock In {\em Proceedings of the 30th {{ACM SIGKDD Conference}} on {{Knowledge Discovery}} and {{Data Mining}}}, pages 2284--2295, Barcelona Spain, August 2024. ACM.
+
+\bibitem{oeschHighFidelityTraining2024}
+Sean Oesch, Amul Chaulagain, Brian Weber, Matthew Dixson, Amir Sadovnik, Benjamin Roberson, Cory Watson, and Phillipe Austria.
+\newblock Towards a {{High Fidelity Training Environment}} for {{Autonomous Cyber Defense Agents}}.
+\newblock In {\em Proceedings of the 17th {{Cyber Security Experimentation}} and {{Test Workshop}}}, pages 91--99, Philadelphia PA USA, August 2024. ACM.
+
+\bibitem{oroojlooyReviewCooperativeMultiagent2023}
+Afshin Oroojlooy and Davood Hajinezhad.
+\newblock A review of cooperative multi-agent deep reinforcement learning.
+\newblock {\em Applied Intelligence}, 53(11):13677--13722, June 2023.
+
+\bibitem{roshanaeiEnhancingCybersecurityAI2024}
+Maryam Roshanaei, Mahir~R. Khan, and Natalie~N. Sylvester.
+\newblock Enhancing {{Cybersecurity}} through {{AI}} and {{ML}}: {{Strategies}}, {{Challenges}}, and {{Future Directions}}.
+\newblock {\em Journal of Information Security}, 15(3):320--339, May 2024.
+
+\bibitem{turingICOMPUTINGMACHINERYINTELLIGENCE1950}
+A.~M. TURING.
+\newblock I.---{{COMPUTING MACHINERY AND INTELLIGENCE}}.
+\newblock {\em Mind}, LIX(236):433--460, October 1950.
+
+\bibitem{wangMobileAgentv2MobileDevice2024}
+Junyang Wang, Haiyang Xu, Haitao Jia, Xi~Zhang, Ming Yan, Weizhou Shen, Ji~Zhang, Fei Huang, and Jitao Sang.
+\newblock Mobile-{{Agent-v2}}: {{Mobile Device Operation Assistant}} with {{Effective Navigation}} via {{Multi-Agent Collaboration}}.
+\newblock {\em Advances in Neural Information Processing Systems}, 37:2686--2710, December 2024.
+
+\bibitem{weiOfflineReinforcementLearning2025}
+Alexander Wei, David Bierbrauer, Emily Nack, John Pavlik, and Nathaniel Bastian.
+\newblock Offline {{Reinforcement Learning}} for {{Autonomous Cyber Defense Agents}}.
+\newblock In {\em Proceedings of the {{Winter Simulation Conference}}}, {{WSC}} '24, pages 1978--1989, Orlando, Florida, USA, February 2025. IEEE Press.
+
+\bibitem{yangAutomaticRecognitionCollective2023}
+Shuo Yang, Dilini Samarasinghe, Anupama Arukgoda, Shadi Abpeikar, Erandi Lakshika, and Michael Barlow.
+\newblock Automatic {{Recognition}} of {{Collective Emergent Behaviors Using Behavioral Metrics}}.
+\newblock {\em IEEE Access}, 11:89077--89092, 2023.
+
+\bibitem{zhangFullyDecentralizedMultiAgent2018}
+Kaiqing Zhang, Zhuoran Yang, Han Liu, Tong Zhang, and Tamer Basar.
+\newblock Fully {{Decentralized Multi-Agent Reinforcement Learning}} with {{Networked Agents}}.
+\newblock In {\em Proceedings of the 35th {{International Conference}} on {{Machine Learning}}}, pages 5872--5881. PMLR, July 2018.
+
+\bibitem{zhaoExpeLLLMAgents2024}
+Andrew Zhao, Daniel Huang, Quentin Xu, Matthieu Lin, Yong-Jin Liu, and Gao Huang.
+\newblock {{ExpeL}}: {{LLM Agents Are Experiential Learners}}.
+\newblock {\em Proceedings of the AAAI Conference on Artificial Intelligence}, 38(17):19632--19642, March 2024.
+
+\end{thebibliography}

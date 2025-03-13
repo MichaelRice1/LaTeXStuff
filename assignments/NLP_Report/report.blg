@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: report.aux
+The style file: plain.bst
+Database file #1: /mnt/c/Users/athen/Desktop/MAI_Sem2/AdvancedNLP/Project/NLP_Report.bib
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            519 strings with 5048 characters,
+and the built_in function-call counts, 1223 in all, are:
+= -- 107
+> -- 84
+< -- 1
++ -- 32
+- -- 29
+* -- 92
+:= -- 205
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 22
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 37
+empty$ -- 85
+format.name$ -- 29
+if$ -- 253
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 1
+newline$ -- 16
+num.names$ -- 8
+pop$ -- 34
+preamble$ -- 1
+purify$ -- 19
+quote$ -- 0
+skip$ -- 34
+stack$ -- 0
+substring$ -- 47
+swap$ -- 12
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 10
+width$ -- 4
+write$ -- 31

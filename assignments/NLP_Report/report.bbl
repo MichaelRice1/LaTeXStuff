@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{lewisBARTDenoisingSequencetoSequence2019}
+Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, and Luke Zettlemoyer.
+\newblock {{BART}}: {{Denoising Sequence-to-Sequence Pre-training}} for {{Natural Language Generation}}, {{Translation}}, and {{Comprehension}}, October 2019.
+
+\bibitem{zotero-400}
+Samuel Magnan.
+\newblock 1 million {{Reddit}} comments from 40 subreddits, March 2024.
+
+\bibitem{papineniBleuMethodAutomatic2002}
+Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu.
+\newblock Bleu: A {{Method}} for {{Automatic Evaluation}} of {{Machine Translation}}.
+\newblock In Pierre Isabelle, Eugene Charniak, and Dekang Lin, editors, {\em Proceedings of the 40th {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}}}, pages 311--318, Philadelphia, Pennsylvania, USA, July 2002. Association for Computational Linguistics.
+
+\end{thebibliography}

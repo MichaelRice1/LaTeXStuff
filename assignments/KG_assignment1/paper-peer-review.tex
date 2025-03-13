@@ -1,0 +1,138 @@
+\documentclass[a4paper,9pt]{scrartcl}
+\usepackage{amssymb, amsmath} % needed for math
+\usepackage[utf8]{inputenc}   % this is needed for umlauts
+\usepackage[USenglish]{babel} % this is needed for umlauts
+\usepackage[T1]{fontenc}      % this is needed for correct output of umlauts in pdf
+\usepackage[margin=2.5cm]{geometry} %layout
+\usepackage[hyperfootnotes=false, pdfborder={0 0 0}, colorlinks=false]{hyperref}
+\usepackage{color}
+\usepackage{framed}
+\usepackage{enumerate}  % for advanced numbering of lists
+\usepackage{csquotes}   % for enquote
+
+\setlength{\parskip}{0.25em}  % Increase space between paragraphs
+\setlength{\parindent}{3em}  % Change the indent size
+
+\newcommand\titletext{Review of: \\ 
+\textbf{"Advancing Robotic Perception with Perceived-Entity Linking"} \\ 
+\textit{ISWC 2024, Volume 2, Pg 192-209} \\[0.5em] 
+\textit{Adamik et al.}}
+\title{\titletext}
+\author{Michael Rice}
+\usepackage{microtype}
+
+\begin{document}
+
+\maketitle
+\section{Paper Summary}
+This paper discusses a novel approach to robotic perception,  known as Perceived Entity Linking or PEL, which operates by 
+leveraging the Semantic Web to link visually perceived entities to uniquely identifiable entries in target knowledge repositories. The authors propose 
+a fascinating approach, attempting to form the aforementioned link between what the robot perceives and what it knows using the raw sensory data 
+captured by the robot's sensor array. \cite{adamikAdvancingRoboticPerception2024}. This publication draws on techniques from both the fields of 
+Computer Vision and Natural Language Processing to remedy several challenges in robotic perception, including entity typing (both 
+with and without entity attributes i.e. size, colour etc.) as well as entity recognition and entity linking. 
+
+The primary technique from the field of computer vision deployed in this paper is object detection, in the form of the YOLO (You Only Look Once) 
+algorithm \cite{redmonYouOnlyLook2016}. Additionally, two techniques, inspired by the field of Natural Language Processing (NLP), are employed: Candidate 
+Generation and Disambiguation. The Candidate Generation process is utilized to propose a set of potential perceived entities based on results from the
+object detection algorithm. For instance, if the label 'Orange' is returned, WordNet \cite{WordNetLexicalDatabase} is utilized to provide alternative 
+variations or interpretations of the label, such as 'orange' referring to the fruit or 'Orange' referring to the city in California. Following on from this, 
+the Disambiguation process seeks to refine this list of candidates, reducing it to either a single entity or no entity at all. These techniques combine to 
+form a pipeline that operates under the following headings - observation, (entity) recognition and (entity) linking \cite{adamikAdvancingRoboticPerception2024} in 
+an attempt to equip robots with a form of 'commonsense' environmental knowledge. 
+
+
+
+
+\section{Expected Impact of the Paper}
+
+I believe that the future impact of the work undertaken in this paper could potentially be significant, particularly in the field of general-purpose robotics. 
+Enhancing 'common-sense' knowledge in robotic perception systems is the key to increasing the generalizability of such systems. The discussed concept of PEL \cite{adamikAdvancingRoboticPerception2024}, which will likely be 
+central to any potential future impact this paper may have, is enabled by a variety of individual building blocks, which combine to achieve its overall goal. 
+
+First, the linking of sensory data to known entities in knowledge bases, could make use of the RDF model \cite{ResourceDescriptionFramework}, which uses subject-predicate-object triples to create
+links between pieces of information. For example, if an object detection algorithm is fine-tuned to detect car manufacturer, and a Volvo car is being perceived by the robot, one such triple that could represent the situation would be Volvo - rdf:type - Car
+, as the 'Car' entity is linked to the 'Volvo' entry in the knowledge graph as a subclass. Furthermore, the fact that RDF is a standardized and machine-readable framework could potentially 
+allow for the sharing, understanding and processing of the same information by multiple different systems without issue. RDF also supports ontology languages such as OWL \cite{WebOntologyLanguage}, 
+which provide a structured framework for helping robots understand entity types and their relationships. For example, OWL can define that a leaf is a type of plant, enabling more accurate linking of s
+ensory data to recognized entities and improving overall entity classification.
+
+
+Secondly, SPARQL \cite{SPARQL11Query} and Turtle \cite{RDF11Turtle} could potentially be in use here as a framework for the efficient querying and serialization of linked knowledge. These two concepts are 
+critical to the lowering of delays in the linking process, an important factor in the overall success and long-term implications of this work. 
+
+
+
+\section{Primary Weakness}
+
+The main weaknesses of this implementation are twofold. First, although the peak achieved accuracy of the PEL process on the sample datasets, (69\%), is 
+commendable for an initial attempt, it falls short of the standards required for real-world deployment. Second, both the size and quality of the knowledge 
+base present significant challenges to any potential real-world deployment. An excessively large knowledge base can negatively impact real-time performance, while a low-quality knowledge base 
+can compromise linking accuracy.
+
+In order to first tackle the issue of linking accuracy, a number of solutions could be proposed. The first could 
+augment the Disambiguation process through the use of a ViT (Vision Transformer) \cite{dosovitskiyImageWorth16x162021}. A ViT could be used to provide
+general scene context to the robot, enabling a more accurate and dependable process. 
+
+Secondly, to address the issues relating to the knowledge base itself, a three-part hybrid solution could be proposed to solve the size issues, in the form of 
+dynamically-constructed\cite{chenConstructingDynamicKnowledge2022}, context-aware \cite{panContextawareEntityTyping2021} and domain-specific  
+\cite{abu-salihDomainspecificKnowledgeGraphs2021} sub-graphs. As large knowledge bases can negatively impact real-time performance, sub-graphs could 
+be constructed in real-time based on the scene's context, which could in turn be extracted using a variety of techniques, not limited to; object detection 
+algorithms, (semantic) SLAM algorithms \cite{liSDSLAMSemanticSLAM2024} or Vision Transformer implementations \cite{dosovitskiyImageWorth16x162021}. This would 
+limit the knowledge graph to only what is currently relevant to the robot's surroundings, reducing search and retrieval delays. To actually extract entities from the graph 
+that are related to the scene context, SPARQL \cite{SPARQL11Query} queries could again be used. For example, if the scene context is understood to be an object located in a kitchen, 
+queries could be used to extract all entities with a sample 'foundIn' relationship to 'kitchen'. 
+An example being: 
+\begin{center}
+\verb|SELECT * WHERE {?subject foundIn "kitchen".}|
+\end{center}
+
+
+Finally, the issue of knowledge graph quality is more challenging to address, as it relies on externally available information.
+However, a solution to this issue could potentially involve the use of in-depth, domain-specific knowledge bases alongside more general, publicly available knowledge bases.
+
+
+
+\section{Comparison to Other Published Works}
+
+
+\subsection{Work 1 : "Know Rob 2.0 — A 2nd Generation Knowledge Processing Framework for Cognition-Enabled Robotic Agents" - Beetz et al.}
+
+The first paper I will use for comparison to this work is "Know Rob 2.0" by Beetz et al., a second generation framework created to tackle knowledge representation and reasoning 
+challenges for robotic agents. In contrast to the objective of the paper under review, where the goal was to link perceived entities to a predefined knowledge base, the goal 
+of "Know Rob 2.0" is to 'bridge the gap' between user instructions such as 'open the fridge' and the detailed robotic actions/motions required to perform the task
+\cite{beetzKnowRob202018}. This process aims to incorporate environmental specifics into the robotic agent's decision-making process, such as the weight of an object
+that is to be picked up or the orientation it should be held in. In essence, the goal of this implementation is again to provide the robots with a degree of 'common-sense 
+knowledge' about it's surroundings and how to use this knowledge to its advantage.
+
+To further extend Beetz's work, PEL \cite{adamikAdvancingRoboticPerception2024}, as discussed by Adamik et al., could be integrated into "Know Rob 2.0" in an attempt to 
+more accurately determine/understand objects in the robot's environment, which are necessary to perform the task at hand. This could potentially enhance their ability to 
+perform complex tasks by augmenting the decision-making process with detailed object attributes acquired from the accompanying knowledge base.
+
+
+\subsection{Work 2 : "Grounding Robot Sensory and Symbolic Information Using the Semantic Web" - Stanton and Williams}
+
+The second paper I will use for comparison is "Grounding Robot Sensory and Symbolic Information Using the Semantic Web" by Stanton and Williams. This paper concerns
+a theoretical discussion of symbol grounding (linking internal symbols used in decision-making to the real-world phenomena they refer to) \cite{stantonGroundingRobotSensory2004}
+using ontologies (frameworks for knowledge representation and machine understanding of data and relationships) originally designed for the Semantic Web. 
+In comparison to Adamik et al.'s and Beetz et al.'s paper, Stanton and Williams' work is an earlier and more foundational foray into understanding how to map raw sensory data to 
+real-world information. As such, it is interesting to compare it to more recent works. However, Stanton and Williams provide no details on an implementation, offering only a 
+discussion of the broader concepts and challenges, which sets their work apart from the other two papers under review.
+
+In their paper, Stanton and Williams focus on using a soccer-playing robot as a canvas to illustrate their framework and approach. They explore the
+use of ontologies in the grounding process (e.g. linking an orange blob in the robot's vision to a soccer ball, due to known properties of the ball.) By doing so, robots are
+able to build complex, internal models of their environments, allowing them to reason and plan as well as predict future states \cite{stantonGroundingRobotSensory2004}.
+The role of ontologies in this is to aid in the description of entities is terms of their sensory data, which in turn allows a connection between the 'Perception Layer' and 
+the 'Symbolic Layer' \cite{stantonGroundingRobotSensory2004}.
+
+
+
+
+
+\rule{\linewidth}{0.2mm}
+
+\bibliographystyle{plain}
+\bibliography{/mnt/c/Users/athen/Desktop/MAI_Sem2/KnowledgeGraphs/Assignment1/KG_Assignment1.bib}
+
+
+\end{document}

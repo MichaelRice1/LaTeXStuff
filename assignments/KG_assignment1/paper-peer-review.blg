@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper-peer-review.aux
+The style file: plain.bst
+Database file #1: /mnt/c/Users/athen/Desktop/MAI_Sem2/KnowledgeGraphs/Assignment1/KG_Assignment1.bib
+Warning--to sort, need author or key in WordNetLexicalDatabase
+Warning--to sort, need author or key in ResourceDescriptionFramework
+Warning--to sort, need author or key in WebOntologyLanguage
+Warning--to sort, need author or key in SPARQL11Query
+Warning--to sort, need author or key in RDF11Turtle
+You've used 14 entries,
+            2118 wiz_defined-function locations,
+            581 strings with 7686 characters,
+and the built_in function-call counts, 4881 in all, are:
+= -- 456
+> -- 254
+< -- 5
++ -- 101
+- -- 86
+* -- 321
+:= -- 726
+add.period$ -- 36
+call.type$ -- 14
+change.case$ -- 81
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 180
+empty$ -- 408
+format.name$ -- 86
+if$ -- 1078
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 5
+newline$ -- 64
+num.names$ -- 22
+pop$ -- 138
+preamble$ -- 1
+purify$ -- 67
+quote$ -- 0
+skip$ -- 170
+stack$ -- 0
+substring$ -- 239
+swap$ -- 63
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 56
+warning$ -- 5
+while$ -- 35
+width$ -- 16
+write$ -- 130
+(There were 5 warnings)
