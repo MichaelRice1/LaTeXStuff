@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1742057582.17448 "report.tex" "report.pdf" "report" 1742057584.06163 0
+["pdflatex"] 1742058544.82232 "report.tex" "report.pdf" "report" 1742058546.67274 0
   "/etc/texmf/web2c/texmf.cnf" 1741876697.05554 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -130,9 +130,9 @@
   "images/qvalues(1).png" 1742043504.47386 7410 2f4cd7130949bf03a522fad6c837026b ""
   "images/qvalues(2)(0).png" 1742043504.52386 7192 2794eae4ee72a5c9a6557f4272a2e45f ""
   "images/qvalues(3).png" 1742056315.63163 9011 fbbee8e47f9c288977914531ee289287 ""
-  "report.aux" 1742057583.97142 6790 7e11dfb34be75629083ee91466079566 "pdflatex"
-  "report.out" 1742057583.28142 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "report.tex" 1742057582.03142 10833 e7932492c0357ab85e9e8e4f657f065d ""
+  "report.aux" 1742058546.58164 6790 7e11dfb34be75629083ee91466079566 "pdflatex"
+  "report.out" 1742058545.94164 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "report.tex" 1742058544.65164 10986 e2ae139cdc9c4f79ada7e9319a47aff4 ""
   (generated)
   "report.aux"
   "report.log"

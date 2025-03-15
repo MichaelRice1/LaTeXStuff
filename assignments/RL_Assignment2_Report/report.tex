@@ -220,7 +220,8 @@ possible path through the world, considering both hole states and overall step c
 as having to go around it increases overall step count, thus lowering reward, which leads to the states which would be involved in travelling 
 around this hole state to be discouraged. Finally, the chosen path is much more evident in this section, with the algorithm clearly favouring
 repetitions of the (Right,Down) action pair until the goal state is reached. This is the reason why state (4,3) has a lower value than (3,4),
-despite both being win state adjacent. 
+despite both being win state adjacent. As a final note, none of the epsilon decline methods had any major effect on the result of this 
+experiment, meaning any of them, or none, could be used.
 
 
 \begin{figure}[H]
