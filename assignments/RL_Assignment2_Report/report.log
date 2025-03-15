@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.13)  15 MAR 2025 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.13)  15 MAR 2025 16:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -497,118 +497,36 @@ Package csquotes Info: ... none found.
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box60
-) (./report.aux
-
-LaTeX Warning: Label `fig:rewards_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:rewards_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:epsilon_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:epsilon_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:win_percent_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:win_percent_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:training_metrics' multiply defined.
-
-
-LaTeX Warning: Label `fig:rewards_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:rewards_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:win_percent_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:win_percent_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:training_metrics' multiply defined.
-
-
-LaTeX Warning: Label `fig:rewards_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:rewards_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:epsilon_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:epsilon_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:win_percent_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:win_percent_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:training_metrics' multiply defined.
-
-
-LaTeX Warning: Label `fig:rewards_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:rewards_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:epsilon_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:epsilon_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:win_percent_avg' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:win_percent_avg' multiply defined.
-
-
-LaTeX Warning: Label `fig:training_metrics' multiply defined.
-
-
-LaTeX Warning: Label `fig:style_transfer_example' multiply defined.
-
-)
+) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-Package scrbase Info: activating english \abstractname on input line 50.
-Package scrbase Info: activating english \partname on input line 50.
-Package scrbase Info: activating english \figurename on input line 50.
-Package scrbase Info: activating english \tablename on input line 50.
-Package scrbase Info: activating english \contentsname on input line 50.
-Package scrbase Info: activating english \listfigurename on input line 50.
-Package scrbase Info: activating english \listtablename on input line 50.
-Package scrbase Info: activating english \refname on input line 50.
-Package scrbase Info: activating english \indexname on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+Package scrbase Info: activating english \abstractname on input line 48.
+Package scrbase Info: activating english \partname on input line 48.
+Package scrbase Info: activating english \figurename on input line 48.
+Package scrbase Info: activating english \tablename on input line 48.
+Package scrbase Info: activating english \contentsname on input line 48.
+Package scrbase Info: activating english \listfigurename on input line 48.
+Package scrbase Info: activating english \listtablename on input line 48.
+Package scrbase Info: activating english \refname on input line 48.
+Package scrbase Info: activating english \indexname on input line 48.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -644,7 +562,7 @@ Package scrbase Info: activating english \indexname on input line 50.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 48.
 (./report.out) (./report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
@@ -656,7 +574,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 50.
+(scrartcl)           before \begin{document} on input line 48.
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -684,19 +602,19 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \c@lstlisting=\count317
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 50.
-Package microtype Info: Applying patch `item' on input line 50.
-Package microtype Info: Applying patch `toc' on input line 50.
-Package microtype Info: Applying patch `eqnum' on input line 50.
-Package microtype Info: Applying patch `footnote' on input line 50.
-Package microtype Info: Applying patch `verbatim' on input line 50.
+LaTeX Info: Redefining \microtypecontext on input line 48.
+Package microtype Info: Applying patch `item' on input line 48.
+Package microtype Info: Applying patch `toc' on input line 48.
+Package microtype Info: Applying patch `eqnum' on input line 48.
+Package microtype Info: Applying patch `footnote' on input line 48.
+Package microtype Info: Applying patch `verbatim' on input line 48.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 50.
+LaTeX Info: Redefining \showhyphens on input line 48.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -710,15 +628,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 53.
+(Font)              using `OT1/cmss/bx/n' instead on input line 51.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -727,102 +645,79 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <images/q_learning_rewards_avg(1).png, id=4, 722.7pt x 361.35pt>
 File: images/q_learning_rewards_avg(1).png Graphic file (type png)
 <use images/q_learning_rewards_avg(1).png>
-Package pdftex.def Info: images/q_learning_rewards_avg(1).png  used on input line 78.
+Package pdftex.def Info: images/q_learning_rewards_avg(1).png  used on input line 76.
 (pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
 <images/q_learning_epsilon_avg(1).png, id=6, 722.7pt x 361.35pt>
 File: images/q_learning_epsilon_avg(1).png Graphic file (type png)
 <use images/q_learning_epsilon_avg(1).png>
-Package pdftex.def Info: images/q_learning_epsilon_avg(1).png  used on input line 84.
+Package pdftex.def Info: images/q_learning_epsilon_avg(1).png  used on input line 82.
 (pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
 <images/q_learning_win_percentage_avg(1).png, id=7, 722.7pt x 361.35pt>
 File: images/q_learning_win_percentage_avg(1).png Graphic file (type png)
 <use images/q_learning_win_percentage_avg(1).png>
-Package pdftex.def Info: images/q_learning_win_percentage_avg(1).png  used on input line 90.
+Package pdftex.def Info: images/q_learning_win_percentage_avg(1).png  used on input line 88.
 (pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
-</home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(1).png, id=8, 322.95656pt x 174.6525pt>
-File: /home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(1).png Graphic file (type png)
-<use /home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(1).png>
-Package pdftex.def Info: /home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(1).png  used on input line 101.
-(pdftex.def)             Requested size: 227.62206pt x 123.09538pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/q_learning_epsilon_avg(2)(0).png, id=9, 722.7pt x 361.35pt>
-File: images/q_learning_epsilon_avg(2)(0).png Graphic file (type png)
-<use images/q_learning_epsilon_avg(2)(0).png>
-Package pdftex.def Info: images/q_learning_epsilon_avg(2)(0).png  used on input line 123.
-(pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
-<images/q_learning_epsilon_avg(2)(1).png, id=10, 722.7pt x 361.35pt>
-File: images/q_learning_epsilon_avg(2)(1).png Graphic file (type png)
-<use images/q_learning_epsilon_avg(2)(1).png>
-Package pdftex.def Info: images/q_learning_epsilon_avg(2)(1).png  used on input line 129.
-(pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[][][]|\OT1/cmr/m/n/8 (+20) Run Av-er-aged Ep-silon De-cay
- []
-
-<images/q_learning_epsilon_avg(2)(2).png, id=11, 722.7pt x 361.35pt>
-File: images/q_learning_epsilon_avg(2)(2).png Graphic file (type png)
-<use images/q_learning_epsilon_avg(2)(2).png>
-Package pdftex.def Info: images/q_learning_epsilon_avg(2)(2).png  used on input line 135.
-(pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
-[1
+<images/qvalues(1).png, id=8, 322.95656pt x 174.6525pt>
+File: images/qvalues(1).png Graphic file (type png)
+<use images/qvalues(1).png>
+Package pdftex.def Info: images/qvalues(1).png  used on input line 107.
+(pdftex.def)             Requested size: 182.09486pt x 98.4763pt.
+ [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/q_learning_rewards_avg(1).png> <./images/q_learning_epsilon_avg(1).png> <./images/q_learning_win_percentage_avg(1).png>]
-<images/q_learning_rewards_avg(2)(0).png, id=30, 722.7pt x 361.35pt>
-File: images/q_learning_rewards_avg(2)(0).png Graphic file (type png)
-<use images/q_learning_rewards_avg(2)(0).png>
-Package pdftex.def Info: images/q_learning_rewards_avg(2)(0).png  used on input line 148.
-(pdftex.def)             Requested size: 204.85846pt x 102.42892pt.
-<images/q_learning_win_percentage_avg(2)(0).png, id=31, 722.7pt x 361.35pt>
-File: images/q_learning_win_percentage_avg(2)(0).png Graphic file (type png)
-<use images/q_learning_win_percentage_avg(2)(0).png>
-Package pdftex.def Info: images/q_learning_win_percentage_avg(2)(0).png  used on input line 154.
-(pdftex.def)             Requested size: 204.85846pt x 102.42892pt.
-<images/q_learning_rewards_avg(2)(2).png, id=32, 722.7pt x 361.35pt>
-File: images/q_learning_rewards_avg(2)(2).png Graphic file (type png)
-<use images/q_learning_rewards_avg(2)(2).png>
-Package pdftex.def Info: images/q_learning_rewards_avg(2)(2).png  used on input line 166.
+<images/q_learning_epsilon_avg(2)(0).png, id=26, 722.7pt x 361.35pt>
+File: images/q_learning_epsilon_avg(2)(0).png Graphic file (type png)
+<use images/q_learning_epsilon_avg(2)(0).png>
+Package pdftex.def Info: images/q_learning_epsilon_avg(2)(0).png  used on input line 126.
 (pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
+<images/q_learning_epsilon_avg(2)(1).png, id=27, 722.7pt x 361.35pt>
+File: images/q_learning_epsilon_avg(2)(1).png Graphic file (type png)
+<use images/q_learning_epsilon_avg(2)(1).png>
+Package pdftex.def Info: images/q_learning_epsilon_avg(2)(1).png  used on input line 132.
+(pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
+<images/q_learning_epsilon_avg(2)(2).png, id=28, 722.7pt x 361.35pt>
 File: images/q_learning_epsilon_avg(2)(2).png Graphic file (type png)
 <use images/q_learning_epsilon_avg(2)(2).png>
-Package pdftex.def Info: images/q_learning_epsilon_avg(2)(2).png  used on input line 172.
+Package pdftex.def Info: images/q_learning_epsilon_avg(2)(2).png  used on input line 138.
 (pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
-<images/q_learning_win_percentage_avg(2)(2).png, id=33, 722.7pt x 361.35pt>
-File: images/q_learning_win_percentage_avg(2)(2).png Graphic file (type png)
-<use images/q_learning_win_percentage_avg(2)(2).png>
-Package pdftex.def Info: images/q_learning_win_percentage_avg(2)(2).png  used on input line 178.
-(pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
-<images/q_learning_rewards_avg(3).png, id=34, 722.7pt x 361.35pt>
+<images/q_learning_rewards_avg(2)(0).png, id=29, 722.7pt x 361.35pt>
+File: images/q_learning_rewards_avg(2)(0).png Graphic file (type png)
+<use images/q_learning_rewards_avg(2)(0).png>
+Package pdftex.def Info: images/q_learning_rewards_avg(2)(0).png  used on input line 153.
+(pdftex.def)             Requested size: 204.85846pt x 102.42892pt.
+<images/q_learning_win_percentage_avg(2)(0).png, id=30, 722.7pt x 361.35pt>
+File: images/q_learning_win_percentage_avg(2)(0).png Graphic file (type png)
+<use images/q_learning_win_percentage_avg(2)(0).png>
+Package pdftex.def Info: images/q_learning_win_percentage_avg(2)(0).png  used on input line 159.
+(pdftex.def)             Requested size: 204.85846pt x 102.42892pt.
+<images/qvalues(2)(0).png, id=31, 318.43968pt x 175.40532pt>
+File: images/qvalues(2)(0).png Graphic file (type png)
+<use images/qvalues(2)(0).png>
+Package pdftex.def Info: images/qvalues(2)(0).png  used on input line 176.
+(pdftex.def)             Requested size: 182.09486pt x 100.30324pt.
+ [2 <./images/qvalues(1).png> <./images/q_learning_epsilon_avg(2)(0).png> <./images/q_learning_epsilon_avg(2)(1).png> <./images/q_learning_epsilon_avg(2)(2).png> <./images/q_learning_rewards_avg(2)(0).png> <./images/q_learning_win_percentage_avg(2)(0).png>]
+<images/q_learning_rewards_avg(3).png, id=46, 722.7pt x 361.35pt>
 File: images/q_learning_rewards_avg(3).png Graphic file (type png)
 <use images/q_learning_rewards_avg(3).png>
-Package pdftex.def Info: images/q_learning_rewards_avg(3).png  used on input line 197.
+Package pdftex.def Info: images/q_learning_rewards_avg(3).png  used on input line 195.
 (pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
-<images/q_learning_epsilon_avg(3).png, id=35, 722.7pt x 361.35pt>
+<images/q_learning_epsilon_avg(3).png, id=47, 722.7pt x 361.35pt>
 File: images/q_learning_epsilon_avg(3).png Graphic file (type png)
 <use images/q_learning_epsilon_avg(3).png>
-Package pdftex.def Info: images/q_learning_epsilon_avg(3).png  used on input line 203.
+Package pdftex.def Info: images/q_learning_epsilon_avg(3).png  used on input line 201.
 (pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
-<images/q_learning_win_percentage_avg(3).png, id=36, 722.7pt x 361.35pt>
+<images/q_learning_win_percentage_avg(3).png, id=48, 722.7pt x 361.35pt>
 File: images/q_learning_win_percentage_avg(3).png Graphic file (type png)
 <use images/q_learning_win_percentage_avg(3).png>
-Package pdftex.def Info: images/q_learning_win_percentage_avg(3).png  used on input line 209.
+Package pdftex.def Info: images/q_learning_win_percentage_avg(3).png  used on input line 207.
 (pdftex.def)             Requested size: 145.68144pt x 72.83662pt.
- [2 </home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(1).png> <./images/q_learning_epsilon_avg(2)(0).png> <./images/q_learning_epsilon_avg(2)(1).png> <./images/q_learning_epsilon_avg(2)(2).png> <./images/q_learning_rewards_avg(2)(0).png> <./images/q_learning_win_percentage_avg(2)(0).png> <./images/q_learning_rewards_avg(2)(2).png> <./images/q_learning_win_percentage_avg(2)(2).png>]
-</home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(3).png, id=54, 316.93407pt x 193.47281pt>
-File: /home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(3).png Graphic file (type png)
-<use /home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(3).png>
-Package pdftex.def Info: /home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(3).png  used on input line 219.
-(pdftex.def)             Requested size: 227.62206pt x 138.95491pt.
-
-Overfull \hbox (27.74982pt too wide) in paragraph at lines 225--228
-[][] 
- []
-
-[3 <./images/q_learning_rewards_avg(3).png> <./images/q_learning_epsilon_avg(3).png> <./images/q_learning_win_percentage_avg(3).png> </home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(3).png>] (./report.aux)
+<images/qvalues(3).png, id=49, 319.1925pt x 192.72pt>
+File: images/qvalues(3).png Graphic file (type png)
+<use images/qvalues(3).png>
+Package pdftex.def Info: images/qvalues(3).png  used on input line 228.
+(pdftex.def)             Requested size: 182.09486pt x 109.94269pt.
+ [3 <./images/qvalues(2)(0).png> <./images/q_learning_rewards_avg(3).png> <./images/q_learning_epsilon_avg(3).png> <./images/q_learning_win_percentage_avg(3).png> <./images/qvalues(3).png>] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -831,25 +726,22 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18794 strings out of 474222
- 326547 string characters out of 5748733
- 1940975 words of memory out of 5000000
- 40778 multiletter control sequences out of 15000+600000
- 566239 words of font info for 87 fonts, out of 8000000 for 9000
+ 18828 strings out of 474222
+ 325742 string characters out of 5748733
+ 1939975 words of memory out of 5000000
+ 40792 multiletter control sequences out of 15000+600000
+ 566750 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,8n,107p,10948b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,8n,107p,10930b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on report.pdf (3 pages, 411508 bytes).
+Output written on report.pdf (3 pages, 365552 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
  15 named destinations out of 1000 (max. 500000)
- 20588 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 20583 words of extra memory for PDF output out of 20736 (max. 10000000)
 

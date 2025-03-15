@@ -1,17 +1,15 @@
 \documentclass[a4paper,9pt]{scrartcl}
-\usepackage{amssymb, amsmath} % needed for math
-\usepackage[margin=2.5cm]{geometry} %layout
+\usepackage{amssymb, amsmath}
+\usepackage[margin=2.5cm]{geometry}
 \usepackage[hyperfootnotes=false, pdfborder={0 0 0}, colorlinks=false]{hyperref}
 \usepackage{color}
 \usepackage{framed}
 \usepackage{enumerate}
 \usepackage{csquotes} 
 \usepackage{listings}
-\usepackage{color}
 \usepackage{graphicx}
-\usepackage{float}  % For [H] positioning
-\usepackage{graphicx}  % For \includegraphics
-\usepackage{subcaption}  % If using subfigures
+\usepackage{float}
+\usepackage{subcaption}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -50,11 +48,11 @@
 \begin{document}
 
 \maketitle
+
 \section{Introduction}
 This report will discuss the results from the second assignment of the CT5134 module. This assignment tackles Reinforcement Learning (RL) via the 
-Q-Learning algorithm in the Frozen Lake toy problem, part of the famous 'Grid World' category of problems. Each of the results below are averaged
-over a 10 run window. 
-
+Q-Learning algorithm on the Frozen Lake toy problem, part of the famous 'Grid World' category of problems. Each of the results below are averaged
+over a ten run window. 
 
 \section{Hyperparameter Set 1 - Alpha(0.5), Gamma(0.9), Epsilon(0.1)}
 
@@ -77,32 +75,39 @@ plot shows early convergence followed by stagnation, reaching a peak win rate of
 \begin{subfigure}[b]{0.32\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_rewards_avg(1).png}
 \caption{Run Averaged Reward Per Episode}
-\label{fig:rewards_avg}
+\label{fig:set1_rewards}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.32\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_epsilon_avg(1).png}
 \caption{Run Averaged Epsilon}
-\label{fig:epsilon_avg}
+\label{fig:set1_epsilon}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.32\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_win_percentage_avg(1).png}
-\caption{Run Averaged Win \% over Episodes}
-\label{fig:win_percent_avg}
+\caption{Run Averaged Win \%}
+\label{fig:set1_winpercent}
 \end{subfigure}
 \caption{Metrics for Hyperparameter Set 1}
-\label{fig:training_metrics}
+\label{fig:set1_metrics}
 \end{figure}
 
+The figure below shows the Q-value results from this first foray into the Frozen Lake problem. As can be seen, each of the predefined 
+'hole' states, as well as the 'win' state, end the process with a Q-value of 0, as they are terminal states. Other states that are hole adjacent 
+tend to end with negative Q-values due to the fact that they do not explicitly provide a worse reward by moving to that state, but choosing to move to them 
+negatively effects overall episodic reward but placing us in proximity to such negative termini. Remaining states increase in value the further right and 
+down they are, as this means they are closer to the goal state, and thus a substantial reward. There are also other notable artifacts that occur due to 
+the structure of this problem, such as the fact that non-terminal states are more likely to have a higher reward if they are above the diagonal than below.
+This is likely a result of the placement of the hole states, meaning being below the diagonal is generally less likely to result in an optimal path.  
 
-\begin{figure}[h]
+
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{/home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(1).png}
+\includegraphics[width=0.4\textwidth]{images/qvalues(1).png}
 \caption{Action Value Estimates for Each State}
-\label{fig:style_transfer_example}
+\label{fig:set1_qvalues}
 \end{figure}
-
 
 \section{Same Hyperparameter Set w/ Epsilon Decay - Linear, Quadratic and Cubic}
 
@@ -115,116 +120,114 @@ value of 0.1 as before, and ending each run at 0. As can be seen in the plots be
 throughout each run, while both the Quadratic and Cubic methods keep larger values of epsilon for longer. This means both of these 
 non-linear methods are more explorative at the beginning of the runs, with a faster decay at the end (exploitation).
 
-
-
 \begin{figure}[H]
 \centering
 \begin{subfigure}[b]{0.32\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_epsilon_avg(2)(0).png}
-\caption{Run Averaged Epsilon Decay (Linear)}
-\label{fig:rewards_avg}
+\caption{Linear Decay}
+\label{fig:decay_linear}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.32\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_epsilon_avg(2)(1).png}
-\caption{Run Averaged Epsilon Decay (Quadratic)}
-\label{fig:epsilon_avg}
+\caption{Quadratic Decay}
+\label{fig:decay_quadratic}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.32\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_epsilon_avg(2)(2).png}
-\caption{Run Averaged Epsilon Decay (Cubic)}
-\label{fig:win_percent_avg}
+\caption{Cubic Decay}
+\label{fig:decay_cubic}
 \end{subfigure}
-\caption{Metrics for Hyperparameter Set 1 w/ Epsilon Decay}
-\label{fig:training_metrics}
+\caption{Epsilon Decay Schedules}
+\label{fig:decay_schedules}
 \end{figure}
 
-
+The best performing method of epsilon decay was Linear, perhaps indicating that this problem favored a less explorative approach, as linear was the least
+explorative method tested. The reward per episode and win percentage graphs are shown below, with a clear improvement in the trend of the reward per episode, 
+in comparison to the initial test. The final win percentage was also improved from the first test, to \textbf{95.24\%}, a gain of over 4\%.
 
 \begin{figure}[H]
 \centering
 \begin{subfigure}[b]{0.45\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_rewards_avg(2)(0).png}
-\caption{Run Averaged Reward Per Episode}
-\label{fig:rewards_avg}
+\caption{Reward Per Episode}
+\label{fig:decay_rewards}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.45\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_win_percentage_avg(2)(0).png}
-\caption{Run Averaged Win \% over Episodes}
-\label{fig:win_percent_avg}
+\caption{Win Percentage}
+\label{fig:decay_winpercent}
 \end{subfigure}
-\caption{Metrics for Hyperparameter Set 1 w/ Epsilon Decay (Quadratic)}
-\label{fig:training_metrics}
+\caption{Performance with Linear Decay}
+\label{fig:decay_performance}
 \end{figure}
+
+Finally, for this section, the Q-Values exhibit most of the same characteristics as the Q-Values in the initial experiment, with one major notable
+change. As mentioned in the first section, the Q-Values above the diagonal tended to be higher than those below due to the presence of more 'hole' 
+states below the diagonal. However, due to the increased exploitation by the linear epsilon delay versus a constant epsilon in this attempt, positive
+values appear to be more even, aside from the obvious exception of the bottom left of the state space, which is a trap when it comes to 
+improving episodic rewards.
 
 
 \begin{figure}[H]
 \centering
-\begin{subfigure}[b]{0.32\textwidth}
-\includegraphics[width=\textwidth]{images/q_learning_rewards_avg(2)(2).png}
-\caption{Run Averaged Reward Per Episode}
-\label{fig:rewards_avg}
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.32\textwidth}
-\includegraphics[width=\textwidth]{images/q_learning_epsilon_avg(2)(2).png}
-\caption{Run Averaged Epsilon Decay}
-\label{fig:epsilon_avg}
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.32\textwidth}
-\includegraphics[width=\textwidth]{images/q_learning_win_percentage_avg(2)(2).png}
-\caption{Run Averaged Win \% over Episodes}
-\label{fig:win_percent_avg}
-\end{subfigure}
-\caption{Metrics for Hyperparameter Set 1 w/ Epsilon Decay (Cubic)}
-\label{fig:training_metrics}
+\includegraphics[width=0.4\textwidth]{images/qvalues(2)(0).png}
+\caption{Action Value Estimates}
+\label{fig:set2_qvalues}
 \end{figure}
 
+\section{Hyperparameter Set 3 - Alpha(0.7), Gamma(0.95), Epsilon(0.001)}
 
-\section{Hyperparameter Set 3, My Own Choices - Alpha(0.7), Gamma(0.95), Epsilon(0.0)}
+Finally, using the learnings taken from the previous experiments, a new set of hyperparameters were to be designed. As previously mentioned,
+these previous tests pointed to increased exploitation improving the algorithm's performance, therefore this was the chosen direction when
+selecting these hyperparameters. After a number of tests, values of Alpha=0.7, Gamma=0.95 and Epsilon=0.001. This approach maximised exploitation,
+with little to no randomness/exploration.
 
-Finally, in this section the hyperparameters used were of my own design.
-
-
-
+As is evident in the reward per episode and win percentage plots below, the algorithm converges towards the optimal solution much quicker with these
+parameters. Furthermore, the overall percentage of episodes in which the win state was reached was again improved, reaching \textbf{99.79\%},
+another sizeable improvement of over 4\%.
 
 \begin{figure}[H]
 \centering
 \begin{subfigure}[b]{0.32\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_rewards_avg(3).png}
-\caption{Run Averaged Reward Per Episode}
-\label{fig:rewards_avg}
+\caption{Run Averaged Reward}
+\label{fig:set3_rewards}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.32\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_epsilon_avg(3).png}
-\caption{Run Averaged Epsilon Decay}
-\label{fig:epsilon_avg}
+\caption{Epsilon Decay}
+\label{fig:set3_epsilon}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.32\textwidth}
 \includegraphics[width=\textwidth]{images/q_learning_win_percentage_avg(3).png}
-\caption{Run Averaged Win \% over Episodes}
-\label{fig:win_percent_avg}
+\caption{Win Percentage}
+\label{fig:set3_winpercent}
 \end{subfigure}
-\caption{Metrics for Hyperparameter Set 3}
-\label{fig:training_metrics}
+\caption{Metrics for Custom Hyperparameters}
+\label{fig:set3_metrics}
 \end{figure}
 
-\begin{figure}[h]
+When comparing the eventual Q-Values for these hyperparameters to the previous two experiments, it is evident that several changes took place.
+Firstly, these parameters punish the bottom left corner of the state space even more heavily than before, this time including the (2,0) state,
+which held a positive value for both previous sets of arguments. Secondly, the top right corner of the state space is now also actively 
+discouraged, without having any hole states, which had not occurred previously. This shows that the algorithm is learning to choose the quickest 
+possible path through the world, considering both hole states and overall step count. The hole state of (1,3) is likely responsible for this,
+as having to go around it increases overall step count, thus lowering reward, which leads to the states which would be involved in travelling 
+around this hole state to be discouraged. Finally, the chosen path is much more evident in this section, with the algorithm clearly favouring
+repetitions of the (Right,Down) action pair until the goal state is reached. This is the reason why state (4,3) has a lower value than (3,4),
+despite both being win state adjacent. 
+
+
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{/home/athen/files/LaTeXStuff/assignments/RL_Assignment2_Report/images/qvalues(3).png}
-\caption{Action Value Estimates for Each State}
-\label{fig:style_transfer_example}
+\includegraphics[width=0.4\textwidth]{images/qvalues(3).png}
+\caption{Action Value Estimates}
+\label{fig:set3_qvalues}
 \end{figure}
-
-
-\rule{\linewidth}{0.2mm}
-% \bibliographystyle{plain}
-% \bibliography{/mnt/c/Users/athen/Desktop/MAI_Sem2/AdvancedNLP/Project/NLP_Report.bib}
 
 \end{document}
-
